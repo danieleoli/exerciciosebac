@@ -9,10 +9,6 @@ para depois inserir no carrinho
 
 Contexto: Dado que eu acesse a plataforma da EBAC-SHOP
 
-Cenário: Selecionar cor, tamanho e quantidade
-Quando eu selecionar "cor", "tamanho" e "quantidade"
-Então o resultado deve ser selecionar todos os itens
-
 Cenário: Campos obrigatórios
 Quando eu não selecionar "cor", "tamanho" e "quantidade"
 Então o resultado deve exibir uma mensagem de alerta "Preenchimento obrigatório"

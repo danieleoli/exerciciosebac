@@ -12,16 +12,6 @@
             E a senha "abc@123"
             Então deve direcionar para a "tela de checkout"
 
-            Cenário: Usuário inexiste
-            Quando eu digitar o usuário "daniele@ebacshop.com"
-            E a senha "abc@123"
-            Então deve exibir mensagem de alerta "Usuário ou senha inválidos"
-
-            Cenário: Usuário com senha invalida
-            Quando eu digitar o usuário "daniele@ebac.com.br"
-            E a senha "abc123"
-            Então deve exibir mensagem de alerta "Usuário ou senha inválidos"
-
             Esquema do Cenário: Autenticar multiplos usuários
             Quando eu digitar <usuario>
             E a <senha>
